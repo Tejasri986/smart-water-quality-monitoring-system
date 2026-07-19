@@ -20,7 +20,9 @@ Access to safe drinking water is a critical global concern. Traditional water te
 2. **Model Training** – Random Forest Classifier, tuned via GridSearchCV
 3. **Sensor Simulation** – Python script generates realistic sensor readings every 2 seconds
 4. **Live Dashboard** – Streamlit app displays real-time predictions with color-coded alerts (green = potable, red = not potable) and historical trend graphs
-
+![Dashboard Screenshot](<img width="1920" height="1080" alt="Screenshot 2026-07-19 161624" src="https://github.com/user-attachments/assets/e791204c-42cd-4260-bd07-7172dd66db66" />
+)(<img width="1920" height="1080" alt="Screenshot 2026-07-19 161644" src="https://github.com/user-attachments/assets/0f21d553-d059-496e-bbeb-501c0dd5e118" />
+)
 ## 📈 Model Performance
 - Accuracy: 67%
 - Tuned hyperparameters: `max_depth=20, min_samples_split=5, n_estimators=100`
